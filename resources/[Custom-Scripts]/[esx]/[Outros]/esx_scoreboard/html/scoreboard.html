@@ -1,0 +1,49 @@
+<html>
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="nui://esx_scoreboard/html/listener.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="nui://esx_scoreboard/html/style.css">
+</head>
+<body>
+	<div style="display: none;" id="wrap">
+		<div class="header">
+			<div id="logo">
+				<img src="logo.png">
+			</div>
+
+			<div id="informacija">
+				<ul>
+					<p>Cidadãos: <span id="player_count">0</span> / <span id="max_players">64</span> <span style="font-size: 1.2vw"></span></p>
+					<p>Discord: <span id="server_uptime"></span><span style="font-size: 1.2vw"> </span></p>
+					<p>Tempo de Jogo: <span id="play_time"></span></p>
+				</ul>
+			</div>
+		</div>
+
+		<div id="darbai">
+			<p> ‍Inem️ <span id="ems">0</span> </p>
+			<p> PSP <span id="police">0</span> </p>
+			<p> Taxi <span id="taxi">0</span> </p>
+			<p> Mecanico <span id="mechanic">0</span> </p>
+			<p> Advogado <span id="lawyer">0</span> </p>
+			<p> Galaxy <span id="nightclub">0</span> </p>
+		</div>
+
+		<div id="zaidejai">
+			<div class="playerlist">
+				<table id="playerlist" width="100%">
+					<tr class="heading">
+						<th>Nome</th>
+						<th>ID</th>
+						<th>Ping</th>
+						<th>Nome</th>
+						<th>ID</th>
+						<th>Ping</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

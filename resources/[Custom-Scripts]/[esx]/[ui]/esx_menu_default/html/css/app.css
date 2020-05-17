@@ -1,0 +1,102 @@
+
+@font-face {
+  font-family: bankgothic;
+  src: url('../fonts/bankgothic.ttf');
+}
+@font-face {
+  font-family: bankgothic;
+  src: url('../fonts/bankgothic.ttf');
+}
+.menu {
+  min-width: 420px;
+  position: absolute;
+  user-select: none;
+  font-family: bankgothic
+}
+.menu.align-left {
+  left: 40;
+  top: 50%;
+  transform: translate(0, -50%); 
+}
+.menu.align-top-left {
+  left: 0;
+  top: 30%; 
+}
+.menu.align-top {
+  left: 50%;
+  top: 40;
+  transform: translate(-50%, 0); 
+}
+.menu.align-top-right {
+  right: 10;
+  top: 40;
+}
+.menu.align-right {
+  right: 40;
+  top: 50%;
+  transform: translate(0, -50%); 
+}
+.menu.align-bottom-right {
+  right: 40;
+  bottom: 40;
+}
+
+.menu.align-bottom {
+  left: 50%;
+  bottom: 40;
+  transform: translate(-50%, 0); 
+}
+
+.menu.align-bottom-left {
+  left: 40;
+  bottom: 40;
+}
+
+.menu.align-center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.menu .head {
+  width: 95%;
+  height: 110%;
+  padding: 12px 12px;
+  font-size: 24px;
+  color: #fff;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.9332107843137255) 0%, rgba(0,0,0,0.865983893557423) 81%, rgba(0,0,0,0.37298669467787116) 96%, rgba(0,0,0,0) 100%);
+}
+
+.menu .menu-items {
+  max-height: 400px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.menu .menu-items .menu-item {
+  display: block;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.9332107843137255) 0%, rgba(0,0,0,0.865983893557423) 81%, rgba(0,0,0,0.37298669467787116) 96%, rgba(0,0,0,0) 100%);
+  height: 35px;
+  line-height: 35px;
+  color: rgba(250, 250, 250, 1);
+  padding-left: 15px;
+}
+
+.menu .menu-items .menu-item.selected {
+  background: rgb(52,52,52);
+  background: linear-gradient(90deg, rgba(52,52,52,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+/* WebKit scrollbar properties */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555555; 
+}

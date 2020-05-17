@@ -1,0 +1,150 @@
+.character-container {
+    display: none;
+    max-width: 1650px;
+    margin: 0px auto;
+}
+
+.mr12 {
+    margin-right: 12px;
+}
+
+.mr6 {
+    margin-right: 6px;
+}
+
+.text-muted {
+    text-transform: capitalize;
+}
+
+.pageHeader {
+    margin-top: 10vh;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.characterIconContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.characterIcon {
+    font-size: 3rem;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+.infoIcon {
+    font-size: 1rem;
+    color: #b8b8b8;
+    width: 22px;
+}
+
+.informativeText {
+    color: #3b6dfb;
+}
+
+.card {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    display: none;
+    background-color: #fff;
+}
+/* 
+.card:hover {
+    cursor: pointer;
+    background-color: #3b6dfb;
+    box-shadow: 0 6px 36px 10px rgba(48, 86, 255, 0.534);
+    color: #fff;
+} */
+/* 
+.card:hover > .card-body > .text-muted {
+    color: #fff!important;
+}
+
+.card:hover > .card-body > .characterIconContainer > i {
+    color: #98b3ff!important;
+}
+
+.card:hover > .card-body > .list-unstyled > li > i {
+    color: #98b3ff!important;
+}
+
+.card:hover > .card-body > .list-unstyled > li {
+    color: #98b3ff!important;
+}
+
+.card:hover > .card-body > .list-unstyled > li > .informativeText {
+    color: #fff!important;
+} */
+
+.card.chosen-character {
+    background-color: #3b6dfb;
+    color: #fff;
+}
+
+.card.chosen-character > .card-body > .text-muted {
+    color: #fff!important;
+}
+
+.card.chosen-character > .card-body > .characterIconContainer > i {
+    color: #98b3ff!important;
+}
+
+.card.chosen-character > .card-body > .list-unstyled > li > i {
+    color: #98b3ff!important;
+}
+
+.card.chosen-character > .card-body > .list-unstyled > li {
+    color: #98b3ff!important;
+}
+
+.card.chosen-character > .card-body > .list-unstyled > li > .informativeText {
+    color: #fff!important;
+}
+
+/* .play-button {
+    display: none;
+    z-index: 1000;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    background-color: #12c33b;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 36px 10px rgba(48, 255, 82, 0.534);
+}
+
+.play-button:hover {
+    z-index: 1000;
+    cursor: pointer;
+    background-color: #0ddf3e;
+    box-shadow: 0 6px 36px 10px rgba(48, 255, 82, 0.534);
+}
+
+.delete-button {
+    display: none;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 1rem;
+    background-color: #d42020;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.delete-button:hover {
+    cursor: pointer;
+    background-color: #ff0000;
+} */

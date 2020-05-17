@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/mustache.min.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+	</head>
+
+	<body style="background-color:rgba(255,255,255,0);">
+	<div class="row">
+				<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+		<div class="card text-white bg-dark mb-3">
+		  <div class="card-header text-center"><img class="card-img-top" src="https://i.imgur.com/FMkChYM.png" style="max-width: 7rem;" alt="Card image cap"></div><kbd class=" bg-success text-center">Bem-vindo á Elemental Roleplay!</kbd>
+		  <div class="card-body">
+			<h5 class="card-title text-center">REGISTRO</h5>
+			<form id="register">
+			
+				<div class="row">
+					<kbd class="bg-dark col-lg-12 text-center">Nome</kbd>		
+					<div class="input col-lg-12" style="padding-bottom:10px;">
+						  <input type="text" id="firstname" class="form-control" aria-label="Nome do seu Personagem" aria-describedby="inputGroup-sizing-default" placeholder="Enzo">
+					</div>
+					<kbd class="bg-dark col-lg-12 text-center">Sobrenome</kbd>						
+					<div class="input col-lg-12" style="padding-bottom:10px;">
+					  <input id="lastname" type="text" class="form-control" aria-label="Sobrenome do seu Personagem" aria-describedby="inputGroup-sizing-default" placeholder="Gabriel">
+					</div>
+					<kbd class="bg-dark col-lg-12 text-center">Data de Nascimento</kbd>	
+					<div class="input col-lg-12" style="padding-bottom:10px;">
+					  <input id="dateofbirth" type="text" class="form-control" aria-label="Data de Nascimento" aria-describedby="inputGroup-sizing-default" placeholder="01/01/2001">
+					</div>
+					<kbd class="bg-dark col-lg-12 text-center">Altura do seu Personagem</kbd>	
+					<div class="input col-lg-12" style="padding-bottom:10px;">
+					  <input id="height" type="text" class="form-control" aria-label="Altura" aria-describedby="inputGroup-sizing-default" placeholder="Min~Max: (140-200)">
+					</div>
+
+				</div>
+	
+					<div class="text-center">
+						<div class="custom-control custom-radio custom-control-inline">
+						  <input type="radio" name="sex" value="m" id="customRadioInline1" class="custom-control-input" checked>
+						  <label class="custom-control-label" for="customRadioInline1">Masculino</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+						  <input type="radio" name="sex" value="f" id="customRadioInline2" class="custom-control-input">
+						  <label class="custom-control-label" for="customRadioInline2">Feminino</label>
+						</div>
+					</div>
+					<div class="input-group mb-3">
+					</div>
+						<div class="text-center">			
+					<button id="submit" type="submit" class="btn btn-success">Prosseguir para a Customização</button>
+					</div>
+				
+
+				
+			</form>
+		  </div>
+		</div>
+		</div>
+	</div>
+		
+		
+		
+		<script src="script.js" type="text/javascript"></script>
+	</body>
+</html>

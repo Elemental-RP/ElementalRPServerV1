@@ -1,0 +1,219 @@
+html { overflow-x: hidden !important; overflow-y: hidden !important; background-color: transparent !important;}
+
+body {background-color: transparent !important; margin: 0; padding: 0; }
+
+@font-face {
+    font-family: UVNBaiSau_R;
+    src: url(../fonts/UVNBaiSau_R.ttf);
+}
+
+.container{
+	top:10%;
+	left:20%;
+	right:20%;
+	position: absolute;
+	width: auto;
+}
+
+.row {
+	margin: 0;
+	width:auto;
+	height:auto;
+	background: rgba(0,0,0,0.3);
+}
+
+.col-3{
+	
+	color:#FFF;
+}
+
+.col-8{
+	
+	color:#FFF;
+	
+}
+
+.list-group{
+	padding-top: 20px;
+	position: relative;
+	color:#FFF;
+	
+}
+
+.stats{
+	padding-top: 20px;
+}
+
+.stats-thongtin{
+	color:#FFF;
+	
+}
+
+.mr-3{
+	float:left;
+	height: 30px;
+	width: 30px;
+}
+
+.mr-4{
+	float:left;
+	height: 30px;
+	width: 30px;
+}
+
+#hovaten{
+	font-family: 'UVNBaiSau_R';
+	font-size: 20px;
+	color:#FFF;
+}
+
+#gioitinh{
+	font-family: 'UVNBaiSau_R';
+	font-size: 20px;
+	color:#FFF;
+}
+
+#ngaysinh{
+	font-family: 'UVNBaiSau_R';
+	font-size: 20px;
+	color:#FFF;
+}
+
+#congviec{
+	font-family: 'UVNBaiSau_R';
+	font-size: 20px;
+	color:#FFF;
+}
+
+#sodienthoai{
+	font-family: 'UVNBaiSau_R';
+	font-size: 20px;
+	color:#FFF;
+}
+
+#sotienmat{
+	font-family: 'UVNBaiSau_R';
+	font-size: 20px;
+	color: #66ff33;
+}
+
+#nganhang{
+	font-family: 'UVNBaiSau_R';
+	font-size: 20px;
+}
+
+#sotienban{
+	font-family: 'UVNBaiSau_R';
+	font-size: 20px;
+	color: red;
+}
+
+#playerid{
+	font-family: 'UVNBaiSau_R';
+	font-size: 20px;
+	color: yellow;
+}
+
+.dialog {
+	float:left;
+    width:100%;
+    padding: 10px;
+}
+
+.info p {
+	font-family: 'UVNBaiSau_R';
+	text-align: center;
+	font-size: 20px;
+	color: #FFF;
+}
+
+.skill {
+    margin-top:5px;
+    float:left;
+    margin-left:5px;
+    width: calc(50% - 10px);
+}
+
+#staminaProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+span {
+    font-family: 'UVNBaiSau_R';
+    color: white;
+    font-size:14px;
+}
+
+#staminaBar {
+    width: 10%;
+    height: 20px;
+    background-color: rgb(47, 118, 211);
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}
+
+#strengthProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+#strengthBar {
+    width: 10%;
+    height: 20px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}
+
+#drivingProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+#drivingBar {
+    width: 10%;
+    height: 20px;
+    background-color: rgb(187, 63, 47);
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}
+
+#shootingProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+#shootingBar {
+    width: 10%;
+    height: 20px;
+    background-color: rgb(201, 183, 26);
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}
+
+#fishingProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+#fishingBar {
+    width: 10%;
+    height: 20px;
+    background-color: rgb(26, 166, 201);
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}
+
+#drugsProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+#drugsBar {
+    width: 10%;
+    height: 20px;
+    background-color: rgb(125, 19, 134);
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}

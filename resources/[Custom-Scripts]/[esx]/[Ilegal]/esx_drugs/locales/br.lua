@@ -1,0 +1,28 @@
+Locales['br'] = {
+	['weed'] = 'Maconha',
+	['meth'] = 'Metanfetamina',
+	['opium'] = 'Opio',
+	['coke'] = 'Cocaína',
+	['press_collect'] = 'Pressione ~INPUT_CONTEXT~ para coletar ~r~%s~s~ ',
+	['press_process'] = 'Pressione ~INPUT_CONTEXT~ para processar ~r~%s~s~',
+	['press_sell'] = 'Pressione ~INPUT_CONTEXT~ para vender ~r~%s~s~',
+	['act_imp_police'] = 'Ação ~r~impossivel~s~, ~b~polícia~s~: ~o~%s~s~/~y~%s~s~ online',
+	['no_pouches_sale'] = 'Você não tem mais ~r~Bolsas de Drogas~s~ para vender',	
+	['pickup_in_prog'] = '~y~Colheita em progresso~s~...',
+	['too_many_pouches'] = 'Seu inventario estar ficando lotado de ~r~Drogas',
+	['packing_in_prog'] = '~y~Empacotamento em progresso~s~...',
+	['inv_full'] = 'Você não pode mais coletar ~r~%s~s~, seu iventario está cheio',
+	['not_enough'] = 'Você não tem mais ~r~%s~s~',
+	['sold_one'] = 'Você está vendendo ~r~%s~s~',
+	['used_one'] = 'Você usou ~r~x1 de ~r~%s~s~',
+	['sale_in_prog'] = '~g~Venda em progresso~s~...',
+	['exit_marker'] = 'Pressione ~INPUT_CONTEXT~ para cancelar o ~y~processo',
+	['foot_work'] = 'Você deve estar a pé para poder trabalhar.',
+	['act_call_police'] = ':DENUNCIA: Suspeita de vagabundo fazendo coisas ilegais!',
+	['stop_action'] = 'Pressione ~g~[%s]~w~ para parar.',
+	
+	-- Blips
+	['field'] = 'Campo de %s',
+	['processing'] = 'Processamento de %s',
+	['dealer'] = 'Traficante de %s',
+}

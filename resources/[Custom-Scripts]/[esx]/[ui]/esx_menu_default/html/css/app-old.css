@@ -1,0 +1,278 @@
+@font-face {
+	font-family: bankgothic;
+	src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+	font-family: pcdown;
+	src: url('../fonts/pdown.ttf');
+}
+
+@font-face {
+  font-family: signpainter;
+  src: url('../fonts/signpainter.ttf');
+}
+
+@font-face {
+  font-family: arial;
+  src: url('../fonts/arial.ttf');
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url(https://runtime.fivem.net/temp/ChaletLondonNineteenSixty.otf?a);
+}
+
+@font-face {
+    font-family: 'Font2_cond';
+    src: url(https://runtime.fivem.net/temp/chaletcomprime-colognesixty-webfont.ttf?a);
+}
+
+
+.menu {
+	background-color: rgba(0,0,0,0.7);
+	font-family: Verdana;
+	min-width: 400px;
+	color: #fff;
+	position: absolute;
+}
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu .head {
+    background-image: url(https://img.freepik.com/free-vector/abstract-particles-background-with-light-effect_1017-20135.jpg);
+	text-align: center;
+	height: 80px;
+    color: #007cba;
+    font-weight: 300;
+	line-height: 80px;
+    font-size: 40px;
+	font-family: Font2_cond;
+
+}
+
+.menu .menu-items {
+	max-height: 600px;
+	overflow-y: hidden;
+}
+
+.menu .menu-items .menu-item {
+    font-family:  arial;
+	height: 40px;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 32px;
+	line-height: 32px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.menu .menu-items .menu-item.selected {
+  background-image: linear-gradient(to right, rgba(255,255,255,0.7), rgba(255,255,255,0.45));
+  color :black;
+}
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+
+.menu {
+	font-family: 'Poppins', sans-serif;
+	min-width: 330px;
+	color: #fff;
+	position: absolute;
+	padding: 8px;
+	background: #152530;
+	border-radius: 5px;
+	-webkit-box-shadow: 10px 9px 42px -5px rgba(0, 0, 0, 0.52);
+	-moz-box-shadow: 10px 9px 42px -5px rgba(0, 0, 0, 0.52);
+	box-shadow: 10px 9px 42px -5px rgba(0, 0, 0, 0.52);
+}
+
+.head {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu .head {
+    background: #152530;
+	text-align: center;
+	height: 30px;
+    color: #007cba;
+    font-weight: 300;
+	line-height: 27px;
+    font-size: 13px;
+}
+
+.menu .menu-items {
+	max-height: 525px;
+	overflow-y: auto;
+  font-weight: 500;
+  background: #152530;
+}
+
+.menu .menu-items .menu-item {
+	display: block;
+  padding: 7px;
+  font-size: 14px;
+	text-align: left;
+  text-indent: 5px;
+  margin-top: 5px;
+  background: #152530;
+  color: #007cba;
+  border-radius: 7px;
+  border: 2px solid #007cba;
+}
+
+.menu .menu-items .menu-item.selected {
+  background: #007cba;
+  border: 1.5px solid #007cba;
+  border-radius: 7px;
+  color: white;
+}
+
+.head > span {
+  position: relative;
+  display: inline-block;
+}
+
+.head > span::before,
+.head > span::after {
+  content: "";
+  position: absolute;
+  top: 52%;
+  width: 9999px;
+  height: 0.5px;
+  background: #007cba;
+}
+
+.head > span::before {
+  right: 105%;
+  margin-right: 15px;
+}
+
+.head > span::after {
+  left: 105%;
+  margin-left: 15px;
+}
+
+
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  border-left: 4px solid #007cba;
+}
+::-webkit-scrollbar-track {
+  background: #007cba;
+  border-left: 4px solid #007cba;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a242d;
+  border-left: 4px solid #007cba;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1a242d;
+  border-left: 4px solid #007cba;
+}
+*/

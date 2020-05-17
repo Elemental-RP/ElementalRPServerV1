@@ -1,0 +1,54 @@
+body {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+#card {
+  margin: 230px 50px 0 0;
+  float: right;
+  width: 363px;
+  height: 208px;
+  padding: 50px 17px 10px 17px;
+  background: url("../images/legitimation.png");
+  position: absolute;
+  right: 40px;
+}
+p {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+#firstname {
+  top: 50px;
+  left: 101px;
+}
+#lastname{
+  top: 78px;
+  left: 101px;
+}
+#nationality{
+  top: 110px;
+  left: 165px;
+  font-size: 14px;
+}
+#sex{
+  top: 110px;
+  left: 101px;
+  font-size: 14px;
+}
+#height{
+  top: 110px;
+  left: 123px;
+  font-size: 14px;
+}
+#personnummer{
+  top: 113px;
+  left: 213px;
+  font-size: 10px;
+}
+#middle-info {
+  margin: -22px 0 0 135px !important;
+}
+#middle-info p:not(:first-child) {
+  margin-top: 10px;
+}

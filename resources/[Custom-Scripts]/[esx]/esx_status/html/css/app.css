@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+#status_list {
+	position: relative;
+	width  : 260px;
+	left: 380px; /* Default: 350px */
+	top: 130px; /* Default: 20px */
+	left: 83.0%; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+	bottom: 1.85; /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+	height: 30px;
+	-moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+	
+
+}
+
+.status {
+    border-radius: 2px;
+	width: 50px;
+	height: 46px;
+    left: 15px;
+	position: relative;
+	background-color: rgba(0,0,0,0.5);	
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.status_inner {
+}
+
+.status_val {
+	height : 46px;
+}

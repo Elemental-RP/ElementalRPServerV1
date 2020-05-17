@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="./app.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<ul class="list-group">
+						<li class="list-group-item" style="background: rgba(0,0,0,0);"><center>
+							<img id="avatar" src="" class="img-thumbnail" style="background: rgba(0,0,0,0);border-color:rgba(0,0,0,0);">
+						</center>
+						</li>
+						
+						<li class="list-group-item" style="background: rgba(0,0,0,0);">
+							<div class="imgicon">
+								<img src="img/sotienmat.png" class="mr-4">
+								<div id="sotienmat">
+									0
+								</div>
+							</div>
+							
+							<div class="imgicon">
+								<img src="img/nganhang.png" class="mr-4">
+								<div id="nganhang">
+									0
+								</div>
+							</div>
+							
+							<div class="imgicon">
+								<img src="img/sotienban.png" class="mr-4">
+								<div id="sotienban">
+									0
+								</div>
+							</div>
+							
+							<div class="imgicon">
+								<div>[ID:<span id="playerid"></span>]
+								</div>
+							</div>
+							
+						</li>
+					</ul>
+				
+				</div>	
+
+				<div class="col-8">
+					<div class="stats"> 
+						<div class="stats-thongtin">
+							<div class="p-3 mb-2 bg-warning text-white">
+								<div class="imgicon">
+									<img src="img/hovaten.png" class="mr-3">
+									<div id="hovaten">
+										Nome completo
+									</div>
+								</div>
+							</div>
+							
+							<div class="p-3 mb-2 bg-danger text-white">
+								<div class="imgicon">
+									<img src="img/gioitinh.png" class="mr-3">
+									<div id="gioitinh">
+										Sexo
+									</div>
+									
+								</div>
+							</div>
+							
+							<div class="p-3 mb-2 bg-success text-white">
+								<div class="imgicon">
+									<img src="img/ngaysinh.png" class="mr-3">
+									<div id="ngaysinh">
+										Data de nascimento
+									</div>
+								</div>
+							</div>
+							
+							<div class="p-3 mb-2 bg-primary text-dark">
+								<div class="imgicon">
+									<img src="img/congviec.png" class="mr-3">
+									<div id="congviec">
+										Emprego
+									</div>
+								</div>
+							</div>
+							
+							<div class="p-3 mb-2 bg-info text-white">
+								<div class="imgicon">
+									<img src="img/sodienthoai.png" class="mr-3">
+									<div id="sodienthoai">
+										Número de telefone
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	<script>
+		$(document).mousedown(function (e) {
+			if (e.which == 3) {
+				$(".container").fadeOut(100);
+				$.post('http://erp-myinfo/NUIFocusOff');
+			}
+		});
+
+		document.onkeydown = function (data) {
+			if (data.which == 27) { // ESC or F1
+				$(".container").fadeOut(100);
+				$.post('http://erp-myinfo/NUIFocusOff');
+			}
+		};
+    </script>
+	</body>
+</html>

@@ -1,0 +1,152 @@
+html {
+	color: #fff;
+	font-family: Arial;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#wrap {
+    width: 950px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+	background: rgba(9, 9, 9, 0.5);
+	border-radius: 3px;
+}
+
+.dc {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+#zaidejai {
+    padding: 16px;
+	border-radius: 0px 0px 3px 3px;
+}
+
+
+#darbai {
+    width: 100%;
+    padding: 12px 0px;
+    text-align: center;
+    background: rgba(9, 9, 9, 0.7);
+}
+
+#darbai p {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    margin: 0px 5px;
+    padding: 8px;
+}
+
+#darbai span {
+    color: #ff0000;
+}
+
+.header {
+	width: 100%;
+	height: 200px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.header #logo {
+    width: 60%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header #logo img {
+    height: 55%;
+}
+
+.header #informacija {
+    float: left;
+    width: 40%;
+    height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0px 12px;
+}
+
+#informacija ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header #informacija p {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    margin: 5px 0px;
+    padding: 12px 8px;
+    background: rgba(9, 9, 9, 0.3);
+    text-shadow: 0px 0px 5px #131212;
+}
+
+.jobs {
+	font-family: Arial;
+	padding-top: 10px;
+	background-color: #1C1C1C;
+	height: 3vw;
+	width: 100%;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3), 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.serverinfo p {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    margin: 6px 6px;
+    background: #2d2d2d;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.jobs p {
+	font-family: Arial;
+}
+
+table {
+	text-align: left;
+	color: #fff;
+}
+
+th, td {
+	padding-left: 25px;
+}
+
+th {
+	height: 40px;
+}
+
+tr {
+	font-size: 15px;
+	font-family: Arial;
+}
+
+tr.heading {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
