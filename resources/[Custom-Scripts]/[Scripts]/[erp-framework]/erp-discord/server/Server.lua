@@ -1,4 +1,4 @@
-local logs = "https://discordapp.com/api/webhooks/576509405072326669/YApQ9intcCoQy87jBKiwbmsMxZQsqo2sNhmxIPfDMTTvuW5t30-53UAcca89-vPXqyJ4"
+local logs = ""
 local communityname = "Elemental Roleplay"
 local communtiylogo = "https://i.imgur.com/FMkChYM.png" --Must end with .png
 
