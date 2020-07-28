@@ -1,25 +1,9 @@
 local isVisible = false
 local tabletObject = nil
 
--- Citizen.CreateThread(function()
-    -- while true do
-        -- Citizen.Wait(0)
-        -- local playerPed = PlayerPedId()
-        -- local playerVeh = GetVehiclePedIsIn(playerPed, false)
-        -- if not isVisible and IsPedInAnyPoliceVehicle(playerPed) and IsControlJustPressed(0, 311) and GetEntitySpeed(playerVeh) < 10.0 then --K
-            -- if GetVehicleNumberPlateText(getVehicleInFront()) then
-                -- TriggerServerEvent("erp-mdt:performVehicleSearchInFront", GetVehicleNumberPlateText(getVehicleInFront()))
-            -- end
-		-- elseif IsControlJustPressed(0, 311) then --K
-			-- TriggerServerEvent("erp-mdt:hotKeyOpen")
-        -- end
-        -- if DoesEntityExist(playerPed) and IsPedUsingActionMode(playerPed) then -- disable action mode/combat stance when engaged in combat (thing which makes you run around like an idiot when shooting)
-            -- SetPedUsingActionMode(playerPed, -1, -1, 1)
-        -- end
-    -- end
--- end)
-
-TriggerServerEvent("erp-mdt:getOffensesAndOfficer")
+AddEventHandler('playerSpawned', function()
+    TriggerServerEvent("erp-mdt:getOffensesAndOfficer")
+end)
 
 RegisterNetEvent("erp-mdt:sendNUIMessage")
 AddEventHandler("erp-mdt:sendNUIMessage", function(messageTable)
